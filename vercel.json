@@ -1,0 +1,13 @@
+{
+  "name": "ultravox-proxy",
+  "version": "1.0.0",
+  "description": "Vercel serverless proxy for Ultravox API",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed for Vercel API routes'"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
