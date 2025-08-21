@@ -14,6 +14,8 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
+  // here is a test comment to trigger redeployment
+  
   try {
     const apiKey = process.env.ULTRAVOX_API_KEY
     if (!apiKey) {
